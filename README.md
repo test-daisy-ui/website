@@ -1,4 +1,4 @@
-# bs-consulting-website
+# website
 
 ## References
 
