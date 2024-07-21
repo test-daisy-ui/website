@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Poppins';
+}
+
+h5 {
+  color: #b0b0b0;
+  font-size: 24px;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose img {
+  margin: 0px;
+}
+
+.navbar {
+  box-shadow: 0px 25px 23px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+  @apply text-secondary no-underline;
+  font-size: 16px;
+}
+
+.btn-primary {
+  @apply min-w-40 rounded-full;
+
+  background: linear-gradient(0deg, #c1a875 0%, #c1a875 100%),
+    linear-gradient(
+      77deg,
+      #576265 11.6%,
+      #9ea1a1 25.31%,
+      #848b8a 48.06%,
+      #576265 55.72%,
+      #576265 77.23%,
+      #757a7b 85.34%,
+      #576265 91.31%
+    );
+
+  background-blend-mode: color, normal;
+}
+
+.txt-primary {
+  background: linear-gradient(0deg, #c1a875 0%, #c1a875 100%),
+    linear-gradient(
+      77deg,
+      #576265 11.6%,
+      #9ea1a1 25.31%,
+      #848b8a 48.06%,
+      #576265 55.72%,
+      #576265 77.23%,
+      #757a7b 85.34%,
+      #576265 91.31%
+    );
+  background-blend-mode: color, normal;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

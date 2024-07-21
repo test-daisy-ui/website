@@ -24,13 +24,17 @@
     "react": "18.2.0"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@fontsource/poppins": "^5.0.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.25.1",
     "typescript": "5.4.5"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.0",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@tailwindcss/typography": "^0.5.13",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.0",
     "autoprefixer": "^10",

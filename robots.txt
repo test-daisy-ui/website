@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://businesssolutionconsulting.com/sitemap.xml
