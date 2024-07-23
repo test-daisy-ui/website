@@ -51,7 +51,7 @@ const Navbar = () => {
             globalThis.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
           }}
         >
-          <img src={logo} alt="Business Solutions Consulting" />
+          <img src={logo} style={{ height: '80px' }} alt="Business Solution Consulting" />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">

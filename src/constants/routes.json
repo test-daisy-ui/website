@@ -2,5 +2,7 @@
   "AboutUs": "/about",
   "ContactUs": "/contact",
   "Services": "/services",
-  "Partnerships": "/partnerships"
+  "Partnerships": "/partnerships",
+  "Home": "*",
+  "Terms": "/terms"
 }

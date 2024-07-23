@@ -17,13 +17,13 @@ const Philosophy = () => {
 
         <h2 className="txt-primary mx-auto mt-4 w-max">Vision</h2>
         <h5>
-          To become the leading partner in shaping the future of banking by delivering innovative solutions and
-          unparalleled expertise, empowering financial institutions to thrive in an ever-evolving landscape.
+          To become an industry leader by delivering real results through innovative solutions and unparalleled
+          expertise, empowering our clients to thrive in an ever-evolving landscape.
         </h5>
 
         <h2 className="txt-primary mx-auto mt-8 w-max">Values</h2>
         <h5>
-          We are committed to delivering unparalleled expertise and personalized guidance in financial advisory,
+          We are committed to delivering unparalleled expertise and personalized guidance in corporate advisory,
           fostering long-term partnerships built on trust, integrity, and excellence.
         </h5>
       </div>
