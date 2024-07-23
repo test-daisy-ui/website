@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 
 export const usePathScrollToView = (pathName: string) => {
   const ref = useRef<HTMLDivElement>(null)
-  let location = useLocation()
+  const location = useLocation()
 
   useEffect(() => {
     if (location.pathname === pathName && ref.current) {

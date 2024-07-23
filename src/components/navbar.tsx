@@ -1,10 +1,10 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import routes from '../constants/routes.json'
+import { useForceNavigate } from '../hooks/useForceNavigate'
 
 const Navbar = () => {
-  const navigate = useNavigate()
+  const navigate = useForceNavigate()
 
   const navLinks = [
     {

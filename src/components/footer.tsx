@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaMeta } from 'react-icons/fa6'
-import { useNavigate } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import routes from '../constants/routes.json'
+import { useForceNavigate } from '../hooks/useForceNavigate'
 
 const Footer = () => {
-  const navigate = useNavigate()
+  const navigate = useForceNavigate()
 
   return (
     <div className="px-4 lg:px-14">

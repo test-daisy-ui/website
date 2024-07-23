@@ -1,11 +1,11 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
-import { useNavigate } from 'react-router-dom'
 import sliderBackground from '../assets/slider-1.jpg'
 import routes from '../constants/routes.json'
+import { useForceNavigate } from '../hooks/useForceNavigate'
 
 const Slider = () => {
-  const navigate = useNavigate()
+  const navigate = useForceNavigate()
 
   return (
     <div className="relative">
