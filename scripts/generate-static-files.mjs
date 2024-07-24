@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import routes from '../src/constants/routes.json'
+import routes from '../src/constants/routes.json' assert { type: 'json' }
 
 const destinationFolder = 'dist'
 const filesToCopy = ['sitemap.xml', 'robots.txt', 'CNAME']
@@ -25,9 +25,10 @@ for (const route in routes) {
   }
   const routeName = routes[route]
   const routeFileName = `${routeName.replace('/', '')}.html`
+  const routeHtml = path.join(destinationFolder, routeFileName)
   const indexHtml = path.join(destinationFolder, 'index.html')
 
-  fs.copyFile(indexHtml, routeFileName, (err) => {
+  fs.copyFile(indexHtml, routeHtml, (err) => {
     if (err) {
       console.error(`Error copying file ${routeFileName}`, err)
     } else {
